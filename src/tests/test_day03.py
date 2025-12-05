@@ -13,10 +13,10 @@ def test_part1_samples() -> None:
 
     assert part1_module.solve(samples[0]) == 357
 
-# def test_part1_challenge() -> None:
-#     challenge = get_challenge_input(DAY_NAME)
+def test_part1_challenge() -> None:
+    challenge = get_challenge_input(DAY_NAME)
 
-#     assert part1_module.solve(challenge) == 
+    assert part1_module.solve(challenge) == 17435
 
 
 # Part 2 #
