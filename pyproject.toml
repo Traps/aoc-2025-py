@@ -1,0 +1,23 @@
+[project]
+name = "aoc2025"
+version = "0.0.0"
+description = "Advent of Code 2025 (Python)"
+
+authors = [
+    { email = "trapsnegel@gmail.com" }
+]
+
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+aoc2025 = "aoc2025.__main__:main"
+
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.1",
+]
