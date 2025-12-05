@@ -3,7 +3,7 @@ requires-python = ">=3.11"
 
 [[package]]
 name = "aoc2025"
-version = "0.1.2"
+version = "0.2.2"
 source = { editable = "." }
 
 [package.dev-dependencies]
